@@ -68,6 +68,10 @@ For each servo angle in the sweep (0° to ~200°):
 - Add a camera module for actual visual surveillance/recording.
 - Adjust the 15 cm threshold via a potentiometer for a tunable sensitivity setting.
 
+## Video Demo
+
+https://youtube.com/shorts/9O7HuMSmlOA
+
 ## License
 
 Feel free to use, modify, and build on this project.
