@@ -1,4 +1,4 @@
-# Arduino Surveillance Robot 🛡️
+# Arduino Surveillance Robot 
 
 A sentry-style Arduino build that scans its surroundings with an ultrasonic sensor mounted on a panning servo, displays live distance readings in centimeters, and triggers an alarm (buzzer + flashing LED) whenever an object gets closer than 15 cm.
 
@@ -10,7 +10,7 @@ A sentry-style Arduino build that scans its surroundings with an ultrasonic sens
 4. If any detected object is **closer than 15 cm**, the robot treats it as an intrusion:
    - A **passive buzzer** sounds an alarm tone.
    - An **LED flashes** as a visual warning.
-5. Once the threat clears (nothing within 15 cm), the alarm stops and the robot resumes scanning.
+5. Once the threat clears (nothing within 15 cm), the alarm will stop.
 
 ## Hardware Used
 
