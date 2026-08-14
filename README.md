@@ -16,15 +16,14 @@ A sentry-style Arduino build that scans its surroundings with an ultrasonic sens
 
 | Component | Purpose |
 |---|---|
-| Arduino (Uno/Nano/etc.) | Main controller |
+| Arduino Uno | Main controller |
 | HC-SR04 Ultrasonic Sensor | Distance sensing |
 | SG90 (or similar) Servo Motor | Pans the sensor across ~200° |
-| 16x2 LCD / OLED Display | Shows live distance reading |
+| 16x2 LCD | Shows live distance reading |
 | Passive Buzzer | Sounds the alarm |
 | LED + resistor | Visual alarm indicator |
 | Jumper wires, breadboard, power supply | Wiring/power |
 
-*(Update this table with your exact part models/specs.)*
 
 ## Wiring / Pin Configuration
 
@@ -55,7 +54,7 @@ For each servo angle in the sweep (0° to ~200°):
 ## Setup Instructions
 
 1. Wire the components according to the pin table above.
-2. Install any required libraries in the Arduino IDE (e.g. `Servo.h`, and your display's library — `LiquidCrystal.h`, `Adafruit_SSD1306`, etc.).
+2. Install the required libraries in the Arduino IDE: `Servo.h` and `LiquidCrystal.h`.
 3. Upload the sketch to your Arduino.
 4. Power the robot and watch it pan, measure, and display distances — it will alarm automatically on close-range detection.
 
