@@ -30,14 +30,13 @@ A sentry-style Arduino build that scans its surroundings with an ultrasonic sens
 
 | Component | Arduino Pin |
 |---|---|
-| Ultrasonic Trig | e.g. D9 |
-| Ultrasonic Echo | e.g. D10 |
-| Servo Signal | e.g. D6 |
-| Buzzer | e.g. D8 |
-| LED | e.g. D7 |
-| Display (SDA/SCL or data pins) | e.g. A4/A5 (I2C) |
+| Ultrasonic Trig | D10 |
+| Ultrasonic Echo | D11 |
+| Servo Signal | D5 |
+| Buzzer | A0 |
+| LED | D3 |
+| LCD Display | D6, D7, D9, D12, D13 |
 
-*(Replace with your actual pin assignments.)*
 
 ## Alarm Logic (Summary)
 
